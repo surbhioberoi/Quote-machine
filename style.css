@@ -1,0 +1,37 @@
+body {
+  font-family: 'Lekton', sans-serif;
+  background-color: #FFEFEC
+}
+
+#quote {
+  font-size: 25px !important;
+}
+
+.quote-box {
+  border-radius: 3px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 300px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #FFFFFF;
+}
+
+button {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  margin-top: 45px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1600px) {
+  .quote-box {
+    width: 600px;
+  }
+  .heading {
+    margin-bottom: -30px;
+  }
+}
